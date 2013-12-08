@@ -38,7 +38,7 @@ describe "About page" do
     end
     
     it "should have the h1 'About Us'" do
-    	visit '/static_pages/home'
+    	visit '/static_pages/about'
     	page.should have_selector('title', :text => "Ruby on Rails Tutorial Sample App | About Us")
 	end
 end
